@@ -60,16 +60,16 @@ function information() {
   const myProfile = graph("100029350902119");
   profile.src = myProfile[0];
   const bio = [
-    "“하나님을 신뢰하라” 🌷"
+    "Hello My Name Is Donrel so what are you doing now?"
   ];
-  GID("title").innerText = "Wiegine's Profile";
-  GID("name").innerText = "Wiegine S. Echavez";
-  GID("username").innerText = "@wgneechvez";
+  GID("title").innerText = "Donrel's Profile";
+  GID("name").innerText = "Donrel S. Inta";
+  GID("username").innerText = "@DarkKnight";
   GID("bio").innerText = bio[Math.floor(Math.random() * bio.length)];
   GID("fb").onclick = () => openLink("https://www.facebook.com/profile.php?id=" + myProfile[1]);
-  GID("ig").onclick = () => openLink("https://www.instagram.com/wgneechvez");
+  GID("ig").onclick = () => openLink("https://www.facebook.com/do.n.rel.2024");
   GID("group").onclick = () => openLink("https://www.facebook.com/groups/coders.dev");
-  GID("created").innerText = "her bf";
+  GID("created").innerText = "By Me";
 }
 function createParticle() {
   //credits sayo pre @wataruajiro
